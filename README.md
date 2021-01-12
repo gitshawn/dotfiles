@@ -3,7 +3,7 @@
 ### Heavily inspired by:
 - https://github.com/dougmaitelli/dotfiles
 - https://github.com/picodotdev/alis
-  Thank you!
+<BR>Thank you!
 
 To bootstrap your local machine like mine:
 - Boot to local Arch installation media:
