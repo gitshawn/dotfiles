@@ -1,5 +1,4 @@
-## My dotfiles and Arch linux bootstrap script
-## (For my local desktop)
+## My dotfiles and Arch linux bootstrap script (For my local desktop)
 
 ### Heavily inspired by:
 - https://github.com/dougmaitelli/dotfiles
