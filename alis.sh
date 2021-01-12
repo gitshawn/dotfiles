@@ -299,7 +299,7 @@ function facts() {
 function checks() {
     print_step "checks()"
 
-    check_facts
+    # check_facts
 }
 
 function check_facts() {
