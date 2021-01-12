@@ -1,0 +1,9 @@
+# ~/.config/openbox/autostart.sh
+#
+# Run these programs when openbox starts.
+
+# Use feh for background wallpaper.
+[ -f ~/.fehbg ] && exec ~/.fehbg &
+## picom --experimental-backends &
+tint2 &
+volumeicon &
