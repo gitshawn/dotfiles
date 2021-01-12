@@ -1,4 +1,12 @@
 #!/bin/sh
+
+# Simple fancy echo function
+fancy_echo() {
+  local fmt="$1"; shift
+  printf "\\n - = - $fmt\\n" "$@"
+}
+
+fancy_echo "Install X, openbox and related packages" 
 pacman -S --noconfirm \
 xorg-server \
 xorg-xinit \
@@ -7,7 +15,15 @@ ttf-fira-code \
 openbox \
 obconf \
 feh \
-maim \
 volumeicon \
-tint2 \
-alacritty
+tint2
+
+fancy_echo "Install system utils" 
+pacman -S --noconfirm \
+alacritty \
+maim \
+git 
+
+fancy_echo "Get my dotfiles"
+
+fancy_echo "Apply post install configs"
