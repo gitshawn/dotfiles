@@ -29,6 +29,7 @@ git
 
 fancy_echo "Get my dotfiles"
 git clone https://github.com/gitshawn/dotfiles.git
+mv dotfiles/.xinitrc .
 mv dotfiles/.config .
 rm -rf dotfiles
 
