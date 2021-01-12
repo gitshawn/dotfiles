@@ -28,5 +28,8 @@ maim \
 git 
 
 fancy_echo "Get my dotfiles"
+git clone https://github.com/gitshawn/dotfiles.git
+mv dotfiles/.config .
+rm -rf dotfiles
 
 fancy_echo "Apply post install configs"
