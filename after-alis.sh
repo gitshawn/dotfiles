@@ -17,7 +17,6 @@ fancy_echo "Install openbox and related packages"
 pacman -S --noconfirm \
 openbox \
 obconf \
-obmenu \
 feh \
 volumeicon \
 tint2
