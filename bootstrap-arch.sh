@@ -12,4 +12,4 @@ curl -O https://raw.githubusercontent.com/gitshawn/dotfiles/main/alis-reboot.sh
 chmod +x alis.sh
 chmod +x alis-reboot.sh
 
-./alis.sh
+echo 'y' | ./alis.sh
