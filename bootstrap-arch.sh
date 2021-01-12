@@ -13,3 +13,4 @@ chmod +x alis.sh
 chmod +x alis-reboot.sh
 
 echo 'y' | ./alis.sh
+wait
