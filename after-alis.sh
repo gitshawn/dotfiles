@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/bash
 
 # Simple fancy echo function
 fancy_echo() {
