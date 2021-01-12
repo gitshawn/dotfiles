@@ -31,7 +31,7 @@ git
 fancy_echo "Get my dotfiles"
 git clone https://github.com/gitshawn/dotfiles.git
 mv dotfiles/.xinitrc .
-mv dotfiles/.config .
+cp -r dotfiles/.config/* ./config
 rm -rf dotfiles
 
 fancy_echo "Apply post install configs"
