@@ -35,6 +35,7 @@ makepkg -si
 fancy_echo "Get my dotfiles"
 git clone https://github.com/gitshawn/dotfiles.git
 mv dotfiles/.xinitrc .
+mkdir -p .config
 cp -r dotfiles/.config/* .config
 rm -rf dotfiles
 
