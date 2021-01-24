@@ -109,6 +109,12 @@ wm_menu = 1
 panel_dock = 0
 panel_items = L:TSBC
 
+autohide = 1 
+autohide_show_timeout = 0.3 
+autohide_hide_timeout = 2 
+autohide_height = 2 
+strut_policy = follow_size
+
 #---------------------------------------------
 # LAUNCHER
 #---------------------------------------------
