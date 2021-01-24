@@ -12,16 +12,17 @@ xorg-server \
 xorg-xinit \
 noto-fonts noto-fonts-emoji noto-fonts-extra noto-fonts-cjk \
 ttf-fira-code
-openbox \
+# openbox \
 obconf \
 feh \
-lightdm \
-light-locker \
-oblogout \
+# lightdm \
+# light-locker \
+# oblogout \
 xdotool \
 volumeicon \
 tint2 \
-rxvt-unicode \
+# rxvt-unicode \
+pcmanfm \
 rofi \
 maim \
 git \
