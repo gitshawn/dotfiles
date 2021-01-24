@@ -7,4 +7,5 @@
 ## picom --experimental-backends &
 tint2 &
 volumeicon &
-xmodmap -e 'pointer = 1 3 2' &
+# to swap middle and right mouse buttons
+# xmodmap -e 'pointer = 1 3 2' &
