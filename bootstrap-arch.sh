@@ -6,8 +6,8 @@
 # Downloads other scripts and conf files from my repo and executes alis.sh
 
 curl -O https://raw.githubusercontent.com/gitshawn/dotfiles/main/alis.conf
-curl -O https://raw.githubusercontent.com/gitshawn/dotfiles/main/alis.sh
-curl -O https://raw.githubusercontent.com/gitshawn/dotfiles/main/alis-reboot.sh
+curl -O https://raw.githubusercontent.com/picodotdev/alis/blob/master/alis.sh
+curl -O https://raw.githubusercontent.com/picodotdev/alis/blob/master/alis-reboot.sh
 
 chmod +x alis.sh
 chmod +x alis-reboot.sh
