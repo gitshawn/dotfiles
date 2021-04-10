@@ -1,4 +1,4 @@
-#!/usr/bin/env bash -i
+#!/usr/bin/env bash
 set -e
 
 # Arch Linux Install Script (alis) installs unattended, automated
