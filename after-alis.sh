@@ -21,6 +21,7 @@ pcmanfm \
 rofi \
 maim \
 git \
+xterm \
 firefox-developer-edition
 # openbox \
 # lightdm \
@@ -35,9 +36,9 @@ firefox-developer-edition
 
 fancy_echo "Get my dotfiles and copy them here"
 git clone https://github.com/gitshawn/dotfiles.git
-cp dotfiles/.* ~/
-mkdir -p ~/.config
-cp -r dotfiles/.config/* ~/.config
+cp -r dotfiles/.* ~/
+# mkdir -p ~/.config
+# cp -r dotfiles/.config/* ~/.config
 rm -rf dotfiles
 
 # fancy_echo "Apply post install configs"
