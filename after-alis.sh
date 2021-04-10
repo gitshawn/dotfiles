@@ -22,7 +22,8 @@ rofi \
 maim \
 git \
 xterm \
-firefox-developer-edition
+firefox-developer-edition \
+arandr
 # openbox \
 # lightdm \
 # light-locker \
