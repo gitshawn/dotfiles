@@ -12,21 +12,21 @@ xorg-server \
 xorg-xinit \
 noto-fonts noto-fonts-emoji noto-fonts-extra noto-fonts-cjk \
 ttf-fira-code \
-# openbox \
 obconf \
 feh \
-# lightdm \
-# light-locker \
-# oblogout \
 xdotool \
 volumeicon \
 tint2 \
-# rxvt-unicode \
 pcmanfm \
 rofi \
 maim \
 git \
 firefox-developer-edition
+# openbox \
+# lightdm \
+# light-locker \
+# oblogout \
+# rxvt-unicode \
 
 # fancy_echo "Install obmenu-generator (AUR)"
 # git clone https://aur.archlinux.org/obmenu-generator.git
