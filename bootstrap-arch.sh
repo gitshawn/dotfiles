@@ -1,5 +1,5 @@
-# #!/usr/bin/env bash
-# set -e
+#!/usr/bin/env bash
+set -e
 
 # Inspired by download.sh file from package:
 # Arch Linux Install Script (alis) by picodotdev
